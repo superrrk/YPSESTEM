@@ -1,0 +1,26 @@
+diff --git a/index.html b/index.html
+--- index.html
++++ index.html
+@@ -1,8 +1,9 @@
+ <!DOCTYPE html>
+ <html>
+   <head>
+   <title>YPSE STEM</title>
++  <link type="text/css" rel="stlyesheet" href="style.css">
+   </head>
+     <body>
+      <header>
+      <h3>YES Prep Southeast's<h3>
+@@ -12,10 +13,12 @@
+        <h4>Our Objective<h4>
+        <p>Create an environment for learning about 
+       </div>
+      <h3>Meeting Dates<h3>
++        <h4>We meet every 1st and 3rd Wednesday of the month!"</h4>
+      <ul>
+       <li>September 22</li>
+       <li>September 29</li>
++
+      </ul>
+     </body>
+ </html>
