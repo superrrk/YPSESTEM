@@ -1,3 +1,61 @@
 body {
     margin: auto;
 }
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px;
+    background-image: linear-gradient(160deg, #91c4ff, #e3f0ff);
+  }
+  
+  h1 {
+    text-align: center;
+    color: yellow;
+    text-shadow: darkblue 0px 0px 1px, darkblue 0px 0px 1px, darkblue 0px 0px 1px, darkblue 0px 0px 1px;
+    font-size: 50px;
+    margin: 0px, 20px, 20px, 20px;
+  }
+  
+  h4 {
+    text-align: center;
+    margin-bottom: none;
+    padding-bottom: 0px;
+    padding-top: 40px;
+  }
+  
+  body {
+    padding: 35px;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    overflow: hidden;
+  }
+  
+  .nav li {
+    float: left;
+  }
+  
+  .nav li a {
+    display: block; 
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+  }
+  
+  .nav li a:hover {
+    background-color: rgb(127, 144, 240);
+  }
+  
+  .active {
+    background-color: rgb(161, 184, 250);
+  }
+  
+  li a:hover:not(.active) {
+    background-color: lightgoldenrodyellow;
+  }
+  
